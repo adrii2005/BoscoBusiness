@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chango&family=Dancing+Script:wght@400..700&family=Lavishly+Yours&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=McLaren&family=Monoton&family=Oswald:wght@200..700&family=Pacifico&family=Parisienne&family=Praise&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Oswald", serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/business.jpg);
+    background-size: cover;
+}
+header h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+header h2 {
+    padding-bottom: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkblue;
+    padding: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#imagen img {
+    height: 200px;
+    border-radius: 50%;
+}
+#imagen {
+    width: 100%;
+}
+#imagen h3 {
+    color: purple;
+    padding: 10px;
+}
+#texto p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+}
